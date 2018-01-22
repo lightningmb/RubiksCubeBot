@@ -310,7 +310,7 @@ def turn_left_clockwise_90():
         else:
             turn_left_neutral()
     if MAESTRO.get_position(TOP_GRIP) != TOP_NEUTRAL:
-        if MAESTRO.get_position(TOP_ARM) -- TOP_FORWARD:
+        if MAESTRO.get_position(TOP_ARM) == TOP_FORWARD:
             retract_top()
             turn_top_neutral()
             extend_top()
@@ -335,7 +335,7 @@ def turn_left_180():
         else:
             turn_left_neutral()
     if MAESTRO.get_position(TOP_GRIP) != TOP_NEUTRAL:
-        if MAESTRO.get_position(TOP_ARM) -- TOP_FORWARD:
+        if MAESTRO.get_position(TOP_ARM) == TOP_FORWARD:
             retract_top()
             turn_top_neutral()
             extend_top()
@@ -360,7 +360,7 @@ def turn_left_counter_clockwise_90():
         else:
             turn_left_neutral()
     if MAESTRO.get_position(TOP_GRIP) != TOP_NEUTRAL:
-        if MAESTRO.get_position(TOP_ARM) -- TOP_FORWARD:
+        if MAESTRO.get_position(TOP_ARM) == TOP_FORWARD:
             retract_top()
             turn_top_neutral()
             extend_top()
@@ -389,7 +389,7 @@ def turn_right_clockwise_90():
         else:
             turn_right_neutral()
     if MAESTRO.get_position(TOP_GRIP) != TOP_NEUTRAL:
-        if MAESTRO.get_position(TOP_ARM) -- TOP_FORWARD:
+        if MAESTRO.get_position(TOP_ARM) == TOP_FORWARD:
             retract_top()
             turn_top_neutral()
             extend_top()
@@ -414,7 +414,7 @@ def turn_right_180():
         else:
             turn_right_neutral()
     if MAESTRO.get_position(TOP_GRIP) != TOP_NEUTRAL:
-        if MAESTRO.get_position(TOP_ARM) -- TOP_FORWARD:
+        if MAESTRO.get_position(TOP_ARM) == TOP_FORWARD:
             retract_top()
             turn_top_neutral()
             extend_top()
@@ -439,7 +439,7 @@ def turn_right_counter_clockwise_90():
         else:
             turn_right_neutral()
     if MAESTRO.get_position(TOP_GRIP) != TOP_NEUTRAL:
-        if MAESTRO.get_position(TOP_ARM) -- TOP_FORWARD:
+        if MAESTRO.get_position(TOP_ARM) == TOP_FORWARD:
             retract_top()
             turn_top_neutral()
             extend_top()
